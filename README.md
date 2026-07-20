@@ -24,7 +24,7 @@ The journey begins not with "deep learning" or neural networks, but with the **a
 
 ## 🤖 Project 1: The Rule-Based Guardrail
 
-**Live Deployment:** [[Add Lovable/Netlify link here](https://yap-buddy-bot.lovable.app/)]  
+**Live Deployment:** [[[https://yap-buddy-bot.lovable.app/](https://yap-buddy-bot.lovable.app/)](https://yap-buddy-bot.lovable.app/)]  
 
 ### Overview
 Project 1 is not just a "chatbot"—it is a **Deterministic AI Guardrail**. Inspired by enterprise frameworks like NVIDIA NeMo and Llama Guard, this project simulates the security checkpoint that sits *in front* of a larger AI system. 
