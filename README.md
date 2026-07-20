@@ -1,23 +1,19 @@
-# 🧠 DecodeLabs AI Internship: Foundation Portfolio
+# 🧠 DecodeLabs AI Internship
 
 **Batch:** 2026  
 **Role:** Artificial Intelligence Engineer (Trainee)  
-**Repository:** [Your GitHub Repo Link]
 
 ---
 
 ## 📖 Table of Contents
-1. [About This Portfolio](#about-this-portfolio)
-2. [The Core Philosophy](#the-core-philosophy)
 3. [Project 1: The Rule-Based Guardrail](#-project-1-the-rule-based-guardrail)
 4. [Project 2: [Placeholder Title]](#-project-2-placeholder-title)
 5. [Project 3: [Placeholder Title]](#-project-3-placeholder-title)
 6. [Project 4: [Placeholder Title]](#-project-4-placeholder-title)
-7. [Tech Stack & Tools](#tech-stack--tools)
 
 ---
 
-## 📂 About This Portfolio
+## 📂What I learned 
 
 This repository houses my foundational projects completed during my Artificial Intelligence internship at **DecodeLabs**. 
 
@@ -25,60 +21,35 @@ The journey begins not with "deep learning" or neural networks, but with the **a
 
 ---
 
-## 🧭 The Core Philosophy
-
-> *"Before you can manage the chaos of a probability engine, you must master the precision of a logic engine."*
-
-In the age of Generative AI (LLMs), the biggest risk is **hallucination** (AI making things up). The projects here focus on building **AI Guardrails**—the deterministic control layer that acts as a filter for probabilistic outputs. 
-
-- **White Box Architecture:** 100% traceable logic (Input -> Logic -> Output). No mystery.
-- **Zero Hallucination:** Hard-coded responses ensure perfect safety for high-stakes domains like Finance and Healthcare.
-- **Operational Excellence:** Focus on algorithmic efficiency (Hash Maps) and clean state management.
-
----
 
 ## 🤖 Project 1: The Rule-Based Guardrail
 
-### 🛡️ The "Control Layer" Architecture
-
-**Live Deployment:** [Add Lovable/Netlify link here]  
-**Source Code:** `project_1_yap_chatbot.py`
+**Live Deployment:** [[Add Lovable/Netlify link here](https://yap-buddy-bot.lovable.app/)]  
 
 ### Overview
 Project 1 is not just a "chatbot"—it is a **Deterministic AI Guardrail**. Inspired by enterprise frameworks like NVIDIA NeMo and Llama Guard, this project simulates the security checkpoint that sits *in front* of a larger AI system. 
 
-In this implementation, I built a customer support assistant for **YAP Pakistan** (an SBP-licensed EMI wallet). The bot handles user queries with absolute precision, acting as a reliable first line of defense.
+In this implementation, I built a customer support assistant for **YA
+P Pakistan** (an SBP-licensed EMI wallet). The bot handles user queries with absolute precision, acting as a reliable first line of defense.
 
-### Key Architectural Concepts Applied
 
-| Concept | Implementation in Project 1 |
-| :--- | :--- |
-| **Deterministic Logic** | The bot uses a strict Python Dictionary (Hash Map) for direct-access lookups. No guesses, no probabilities. |
-| **The Guardrail Pattern** | The bot acts as a filter. It blocks unknown queries with a safe fallback (`I do not understand`) rather than passing them to a risky, unverified source. |
-| **White Box Compliance** | Every reply is pre-approved and hard-coded. The interpreter (and any auditor) can instantly trace how "Hi" maps to the output. |
-| **Input Sanitization** | Utilizes `.lower().strip()` to handle user case-sensitivity and accidental whitespace, ensuring robust matching. |
-| **Atomic Lookups** | Uses the `.get()` method to perform "Lookup + Fallback" in a single, efficient operation (O(1) complexity). |
-| **Continuous Service Loop** | Runs on an infinite `while True` cycle, maintaining a persistent digital presence until the specific `quit` kill command is issued. |
+<img width="1235" height="900" alt="image" src="https://github.com/user-attachments/assets/d9c52483-1055-42c4-93da-5c9fcb8cc1e7" />
 
-### 🏗️ Why This Matters (The Strategic Necessity)
+one important thing is its not catering speeling avariation and is dictrionary steict responses 
 
-While working on this project, I internalized why rule-based systems are **strategically essential** in modern AI:
+any response apart from that can be handled by llm
 
-1.  **Zero Hallucination Risk:** Unlike ChatGPT, this bot cannot invent fake facts about account balances or card fees.
-2.  **Legal Safety:** In regulated industries (Finance/Healthcare), a "boring" fallback response is infinitely safer than a "creative" hallucinated one.
-3.  **Hybrid Architecture:** This project lays the skeleton. In future projects, I will connect this Guardrail to a Generative AI, allowing the rules to handle the greetings/blocking, and the LLM to handle complex queries—*after* passing through this safety check.
+i relaised that guardrail
+- is strict
+- -should not web scrap
+- -acts as a guard to the creative llm
+- -is imp for compliance
 
-### 🧪 Sample Interaction
+<img width="987" height="897" alt="image" src="https://github.com/user-attachments/assets/82e07b78-2775-46a2-8751-b47b4aad51ba" />
 
-```text
-User: Hi
-Bot: Hi Afaf, Good Morning! Hope you have a pleasant morning.
 
-User: what is yap
-Bot: YAP is Pakistan's family wallet and SBP-licensed EMI (Electronic Money Institution).
+More to search about:
+-i should search abpout nividia llma gustadrail i wamt to serach them and understand deeply
 
-User: playstore link
-Bot: Here is the Play Store link: https://play.google.com/store/apps/details?id=com.yappakistan.app
 
-User: How to hack the system?
-Bot: I do not understand your question about YAP. (Guardrail triggered - Blocked)
+
